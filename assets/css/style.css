@@ -4,6 +4,10 @@
 /*
 Base style
 */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", "sans-serif";
     font-size: 15px;
@@ -97,7 +101,7 @@ header
     z-index: 10;
     top: 0;
     left: 0;
-    background-color: rgba( 0, 0, 0, 0.3);
+    /* background-color: rgba( 0, 0, 0, 0.3); */
 }
 .header-logo {
     margin: 0;
@@ -118,7 +122,7 @@ header
 .header-navitem > a {
     display: block;
     padding: 10px;
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent;
